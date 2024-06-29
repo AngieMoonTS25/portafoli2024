@@ -131,7 +131,7 @@ nav ul li{
 }
 
 /*Esconder boton de hamburguesa*/
-.burguer-menu{
+.burger-menu{
     color: var(--primary-color);
     font-size: 2rem; 
     /*para que se convierta en manita el cursor*/
@@ -149,6 +149,7 @@ nav ul li{
     gap: 2.5rem; 
     max-width: 68.75rem; 
     margin: auto; 
+    margin-top: 2rem;
 }
 
 /*la parte de la imagen */
@@ -185,6 +186,7 @@ nav ul li{
 .more-about h2{
     margin-bottom: var(--bottom-margin);
     text-align: center; 
+
 }
 
 .more-about p{
@@ -335,7 +337,7 @@ up-arrow{
         margin: 8px; 
     } 
 
-    .burguer-menu{
+    .burger-menu{
         display: block;
     }
 
@@ -360,7 +362,7 @@ up-arrow{
     }
 
     .more-about{
-        margin-top: 2rem;
+        margin-top: 1rem;
         padding: 1rem 3.5rem; 
     }
 
